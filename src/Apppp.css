@@ -1,0 +1,205 @@
+/* body {
+  margin: 0;
+  padding: 0;
+  background-color: #87ceeb;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+Weather App Container
+.WeatherApp {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  min-width: 400px;
+  text-align: center;
+}
+
+Header
+.WeatherApp h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #333;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+City Search Form
+.CitySearchForm {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.CitySearchForm input {
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-right: 10px;
+  width: 200px;
+}
+
+.CitySearchForm button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.CitySearchForm button:hover {
+  background-color: #3e8e41;
+}
+
+Weather Display
+.WeatherDisplay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.WeatherDisplay h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #333;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.WeatherDisplay p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.WeatherDisplay img {
+  width: 80px;
+  height: 80px;
+}
+
+City List
+.CityList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 40px;
+  justify-content: space-evenly;
+}
+
+.CityList .WeatherDisplay {
+  margin-bottom: 10px;
+}
+
+.CityList button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.CityList button:hover {
+  background-color: #c62828;
+}
+
+Responsive Styles
+@media (max-width: 767px) {
+  .WeatherApp {
+    padding: 20px;
+  }
+
+  .WeatherApp h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .CitySearchForm input {
+    width: 120px;
+    font-size: 12px;
+  }
+
+  .CitySearchForm button {
+    font-size: 12px;
+    padding: 8px 16px;
+  }
+
+  .WeatherDisplay h2 {
+    font-size: 20px;
+  }
+
+  .WeatherDisplay p {
+    font-size: 14px;
+  }
+
+  .WeatherDisplay img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .CityList button {
+    font-size: 10px;
+    padding: 4px 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .WeatherApp {
+    padding: 15px;
+  }
+
+  .WeatherApp h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .CitySearchForm {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .CitySearchForm input {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+
+  .CitySearchForm button {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  .WeatherDisplay h2 {
+    font-size: 18px;
+  }
+
+  .WeatherDisplay p {
+    font-size: 12px;
+  }
+
+  .WeatherDisplay img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .CityList button {
+    font-size: 8px;
+    padding: 3px 6px;
+  }
+} */
